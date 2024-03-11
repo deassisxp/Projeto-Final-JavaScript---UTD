@@ -1,0 +1,53 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  /* Estilo para as páginas */
+  .pages {
+    padding: 20px;  
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 15vw 1vw 15vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    margin-top: 5px;
+    max-width: 500px;
+  }
+  
+  input {
+    margin-top: 5px;
+    width: 70vw;
+    max-width: 500px;
+  }
+  button {
+    margin-top: 5px;
+    max-width: 150px;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;    
+  }
+  table{
+    width: 80vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1vw 15vw 1vw 15vw;
+  }
+  table, tr, th, td{
+    border: 1px solid black;
+  }
+  
